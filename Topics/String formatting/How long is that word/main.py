@@ -1,0 +1,5 @@
+word_in = input()
+word_len = len(word_in)
+print(f'{word_in} has {word_len} letters')
+# print('{} has {} letters'.format(word_in, word_len))
+# print('{0} has {1} letters'.format(word_in, word_len))

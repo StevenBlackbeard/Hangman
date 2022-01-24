@@ -1,0 +1,7 @@
+sentence = input()
+sentence = sentence.replace("!", "")
+sentence = sentence.replace("?", "")
+sentence = sentence.replace(".", "")
+sentence = sentence.replace(",", "")
+sentence = sentence.lower()
+print(sentence)
